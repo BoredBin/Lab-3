@@ -1,0 +1,59 @@
+header h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header h4:hover {
+    color: gray;
+    cursor: pointer;
+    
+}
+
+header h4{
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 100vh;
+    
+}
+
+.container .recipe{
+    text-align: center;
+}
+.container .recipe img{
+    width: 300px;
+    height: auto;
+    margin: 100px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 100px 20px;
+}
+
+td{
+    color: gray;
+}
+
+#adobo{
+    height: 100vh;
+}
+
+#lumpia{
+    height: 100vh;
+}
+
+#aroscaldo{
+    height: 100vh;
+}
